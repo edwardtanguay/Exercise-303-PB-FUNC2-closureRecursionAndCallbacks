@@ -71,4 +71,12 @@ counter(0, 3);
 
 ## 3. Callbacks
 
-- nnn
+### 3.1. Callback Nametag Generator
+
+- create a function called `createNametag` which receives two parameters: `name` and `cbLanguage`
+- calling the function like this:
+
+```
+console.log(createNameTag('Lars', getGermanTagPhrase)); // "Guten Tag, ich heiße Lars"
+console.log(createNameTag('Lars', getEnglishTagPhrase)); // "Hello, my name is Lars
+```
