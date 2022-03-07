@@ -80,3 +80,17 @@ counter(0, 3);
 console.log(createNameTag('Lars', getGermanTagPhrase)); // "Guten Tag, ich heiße Lars"
 console.log(createNameTag('Lars', getEnglishTagPhrase)); // "Hello, my name is Lars
 ```
+
+### 3.2. Transform Numbers Function
+
+- create a function called `transformNumbers(nums, cbTransformer)`
+- `nums` is an array of numbers, e.g. [1,2,3]
+- `cbTransformer` is a callback function
+- make three callback functions which transform the numbers in different ways:
+    - `doubleIt`, e.g. [2,4,6]
+    - `squareIt`, e.g. [2,4,9]
+    - `makeItAWord`, e.g. ["one","two","three"]
+    - `convertToStars`, e.g. ["*", "**", "***"]
+
+
+				- doubleIt, squareIt, makeItAWord
