@@ -38,7 +38,16 @@ Things to do = 3 and they are: wash dishes, go shopping, go to bed.
 
 ## 2. Recursion
 
-- nnn
+- Complete this recursive function which adds numbers:
+
+```
+const nums = [1, 2, 3, 4, 5, 6];
+function add(nums) {
+    ... // base case / return statement
+    ... // recurcive case
+}
+console.log(add(nums));
+```
 
 ## 3. Callbacks
 
