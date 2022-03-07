@@ -38,6 +38,8 @@ Things to do = 3 and they are: wash dishes, go shopping, go to bed.
 
 ## 2. Recursion
 
+### 2.1. Recursive Number Adder
+
 - Complete this recursive function which adds numbers:
 
 ```
@@ -47,6 +49,23 @@ function add(nums) {
     ... // recurcive case
 }
 console.log(add(nums));
+```
+
+### 2.2. Recursive Count Function
+
+- Explain why this recursive function counts down as well as up:
+
+```
+function counter(value, limit) {
+	if (value === limit) {
+		console.log(value);
+	} else {
+		console.log('going up:', value); // on the way down / going deeper (increment)
+		counter(value + 1, limit);
+		console.log('going down:', value); // on the way up / coming up from the depths (decrement)
+	}
+}
+counter(0, 3);
 ```
 
 ## 3. Callbacks
