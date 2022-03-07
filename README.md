@@ -51,18 +51,19 @@ function add(nums) {
 console.log(add(nums));
 ```
 
-### 2.2. Recursive Count Function
+### 2.2. Recursive Counter Function
 
-- Explain why this recursive function counts down as well as up:
+- What do you think this function outputs?
+- Run it and try to explain how it works.
 
 ```
 function counter(value, limit) {
 	if (value === limit) {
 		console.log(value);
 	} else {
-		console.log('going up:', value); // on the way down / going deeper (increment)
+		console.log(value);
 		counter(value + 1, limit);
-		console.log('going down:', value); // on the way up / coming up from the depths (decrement)
+		console.log(value);
 	}
 }
 counter(0, 3);
