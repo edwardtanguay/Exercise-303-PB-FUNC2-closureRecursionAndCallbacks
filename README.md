@@ -91,6 +91,3 @@ console.log(createNameTag('Lars', getEnglishTagPhrase)); // "Hello, my name is L
     - `squareIt`, e.g. [2,4,9]
     - `makeItAWord`, e.g. ["one","two","three"]
     - `convertToStars`, e.g. ["*", "**", "***"]
-
-
-				- doubleIt, squareIt, makeItAWord
