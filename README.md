@@ -88,6 +88,6 @@ console.log(createNameTag('Lars', getEnglishTagPhrase)); // "Hello, my name is L
 - `cbTransformer` is a callback function
 - make three callback functions which transform the numbers in different ways:
     - `doubleIt`, e.g. [2,4,6]
-    - `squareIt`, e.g. [2,4,9]
+    - `squareIt`, e.g. [1,4,9]
     - `makeItAWord`, e.g. ["one","two","three"]
     - `convertToStars`, e.g. ["\*", "\*\*", "***"]
